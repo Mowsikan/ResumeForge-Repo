@@ -434,11 +434,11 @@ const Builder = () => {
   }, [currentTab, tabs]);
 
   // Calculate total downloads remaining
-  const totalDownloadsRemaining = purchases.reduce((total, purchase) => {
+   const totalDownloadsRemaining = purchases.reduce((total, purchase) => {
     const isNotExpired =
       !purchase.expires_at || new Date(purchase.expires_at) > new Date();
     return isNotExpired ? total + purchase.downloads_remaining : total;
-  }, 0);
+  }, 1);
 
   // Get user display name
   const getUserDisplayName = () => {
