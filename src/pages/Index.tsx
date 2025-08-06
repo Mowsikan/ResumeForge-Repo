@@ -421,11 +421,11 @@ const Index = () => {
                   {/* Stats or highlights */}
                   <div className="grid grid-cols-2 gap-4 mt-8">
                     <div className="text-center p-4 bg-blue-50 rounded-lg">
-                      <div className="text-2xl font-bold text-blue-600">2024</div>
+                      <div className="text-2xl font-bold text-blue-600">2025</div>
                       <div className="text-sm text-gray-600">Founded</div>
                     </div>
                     <div className="text-center p-4 bg-purple-50 rounded-lg">
-                      <div className="text-2xl font-bold text-purple-600">10+</div>
+                      <div className="text-2xl font-bold text-purple-600">24+</div>
                       <div className="text-sm text-gray-600">Templates</div>
                     </div>
                   </div>
