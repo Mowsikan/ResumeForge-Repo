@@ -384,6 +384,117 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Meet The Founder Section - Consistent with Landing Page */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <Badge className="bg-purple-100 text-purple-700 border-purple-200 mb-4">
+              👤 Meet the Founder
+            </Badge>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              The Story Behind Resumify
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Meet the passionate developer who created Resumify to help job seekers 
+              build standout resumes with ease
+            </p>
+          </div>
+
+          <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-br from-white to-gray-50 max-w-5xl mx-auto">
+            <CardContent className="p-8 lg:p-12">
+              <div className="grid lg:grid-cols-2 gap-12 items-center">
+                {/* Founder Image */}
+                <div className="text-center lg:text-left">
+                  <div className="relative inline-block mb-6">
+                    <div className="w-48 h-48 mx-auto lg:mx-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg p-2">
+                      <img
+                        src="Mowsikan-H.jpg"
+                        alt="Mowsikan Hariharasudhan"
+                        className="w-44 h-44 rounded-full object-cover border-4 border-white shadow-lg hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-gradient-to-r from-orange-400 to-red-500 rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-2xl">🚀</span>
+                    </div>
+                  </div>
+                  
+                  {/* Stats or highlights */}
+                  <div className="grid grid-cols-2 gap-4 mt-8">
+                    <div className="text-center p-4 bg-blue-50 rounded-lg">
+                      <div className="text-2xl font-bold text-blue-600">2024</div>
+                      <div className="text-sm text-gray-600">Founded</div>
+                    </div>
+                    <div className="text-center p-4 bg-purple-50 rounded-lg">
+                      <div className="text-2xl font-bold text-purple-600">10+</div>
+                      <div className="text-sm text-gray-600">Templates</div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Founder Content */}
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                      Hi, I'm Mowsikan Hariharasudhan
+                    </h3>
+                    <p className="text-lg text-blue-600 font-medium mb-4">
+                      Founder of Resumify
+                    </p>
+                  </div>
+
+                  <div className="space-y-4 text-gray-700 leading-relaxed">
+                    <p className="text-lg">
+                      As a student and developer, I created Resumify to help others build standout resumes without the hassle. I've been through the struggle — now I'm solving it for others.
+                    </p>
+                    <p className="text-lg font-medium text-gray-900">
+                      Let's make resume building smart, simple, and impactful. 🚀
+                    </p>
+                  </div>
+
+                  <div className="flex flex-wrap gap-3 pt-4">
+                    <Badge className="bg-blue-100 text-blue-700 border-blue-200 px-3 py-1">
+                      🎓 Student Developer
+                    </Badge>
+                    <Badge className="bg-purple-100 text-purple-700 border-purple-200 px-3 py-1">
+                      💻 Problem Solver
+                    </Badge>
+                    <Badge className="bg-green-100 text-green-700 border-green-200 px-3 py-1">
+                      🎯 Mission-Driven
+                    </Badge>
+                    <Badge className="bg-orange-100 text-orange-700 border-orange-200 px-3 py-1">
+                      🚀 Micro-SaaS
+                    </Badge>
+                  </div>
+
+                  <div className="pt-6">
+                    <Link to="/builder">
+                      <Button
+                        size="lg"
+                        className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-xl hover:shadow-2xl transition-all duration-300 text-lg px-8 py-4"
+                      >
+                        <Rocket className="w-5 h-5 mr-2" />
+                        Start Your Journey
+                      </Button>
+                    </Link>
+                  </div>
+
+                  {/* Mission statement */}
+                  <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg border border-blue-100 mt-8">
+                    <h4 className="font-semibold text-gray-900 mb-2 flex items-center">
+                      <Heart className="w-5 h-5 mr-2 text-red-500" />
+                      My Mission
+                    </h4>
+                    <p className="text-gray-700">
+                      Empowering job seekers with professional, ATS-friendly resume templates that help them land their dream jobs faster and easier.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <PricingSection />
 
